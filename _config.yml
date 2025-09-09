@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name 
 description              : &description 
 url                      : https://sevvara.github.io/ethics_fall2025/ #  Use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog", updated
 repository               : "https://github.com/sevvara/ethics_fall2025.git" 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,16 +23,16 @@ repository               : "https://github.com/sevvara/ethics_fall2025.git"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "First Last" #update
-  pronouns         : # example: "she/her"  
+  name             : "Sevara Murodova" #updated
+  pronouns         : # example: "she/her" (no need) 
   bio              : "Short biography for the left hand sidebar"
   employer         : "St. Olaf College"
   uri              : # URL
-  email            : #"[username]@stolaf.edu" #update
+  email            : "murodo1@stolaf.edu" #updated
 
   # links
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "sevvara.github.io/ethics_fall2025/" # Update with the correct link to your profile -updated
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
@@ -43,7 +43,7 @@ author:
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  bitbucket        : "sevvara" # Update with your username on the site - updated
   codepen          : # Username
   dribbble         : # Username
   github           : # "username"
