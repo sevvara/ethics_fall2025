@@ -32,7 +32,7 @@ author:
 
   # links
   academia         : # URL
-  arxiv            : "sevvara.github.io/ethics_fall2025/" # Update with the correct link to your profile -updated
+  arxiv            : # "sevvara.github.io/ethics_fall2025/" - Update with the correct link to your profile -updated
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
@@ -43,7 +43,7 @@ author:
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : "sevvara" # Update with your username on the site - updated
+  bitbucket        : #"sevvara"  - Update with your username on the site - updated
   codepen          : # Username
   dribbble         : # Username
   github           : # "username"
