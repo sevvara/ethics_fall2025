@@ -13,9 +13,9 @@ title                    : "Computing Ethics"
 title_separator          : "-"
 name                     : &name 
 description              : &description 
-url                      : https://chefs-kiss.github.io/ethics_fall2025 #  Use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://sevvara.github.io/ethics_fall2025/ #  Use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/chefs-kiss/ethics_fall2025" 
+repository               : "https://github.com/sevvara/ethics_fall2025.git" 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
