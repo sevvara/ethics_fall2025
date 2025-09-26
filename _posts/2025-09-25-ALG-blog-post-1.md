@@ -1,5 +1,5 @@
 ---
-title: 'AlG Blog Post 1: Exception to Data Driven Rules'
+title: 'ALG Blog Post 1: Exception to Data Driven Rules'
 date: 2025-09-25
 permalink: /posts/2025/09/ALG-blog-post-1/
 tags:
