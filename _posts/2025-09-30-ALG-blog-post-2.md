@@ -32,11 +32,7 @@ There are some ways the system could change. Licensing agreements could give pub
 
 ## Next-Word Prediction
 
-At first, it seems surprising that a model trained just to predict the “next word” can do things like summarize essays, write code, or explain a math problem. But the reason is that predicting words is actually predicting patterns of thought. Over billions of examples, the model picks up structure: grammar, logic, even problem-solving strategies.
-
-Research (like Wei et al., 2022 and Schaeffer et al., 2023) supports this idea, they show that when models get large enough, new abilities seem to “emerge.” It’s a bit like practicing chess so much that you start recognizing patterns without consciously calculating every move.
-
-So “next-word prediction” *isn’t really simple*, it’s the foundation for complex reasoning. The model doesn’t “understand” like a human, but it’s good at imitating the patterns that make understanding look real.
+At first, it seems surprising that a model trained just to predict the “next word” can do things like summarize essays, write code, or explain a math problem. But the reason is that predicting words is actually predicting patterns of thought. Over billions of examples, the model picks up structure: grammar, logic, even problem-solving strategies. So “next-word prediction” *isn’t really simple*, it’s the foundation for complex reasoning. The model doesn’t “understand” like a human, but it’s good at imitating the patterns that make understanding look real.
 
 
 ## Environmental Impact
