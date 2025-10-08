@@ -1,6 +1,6 @@
 ---
 title: 'SOC Blog 1: The Hidden Workforce Behind Generative AI'
-date: 2025-09-30
+date: 2025-10-07
 permalink: /posts/2025/10/SOC-blog-post-2/
 tags:
   - AI Ethics
@@ -14,9 +14,7 @@ tags:
 *Exploring the human side of technology, how AI changes work, creativity, and the hidden labor that keeps our digital world running.* 
 
 **🎥:** 
-["Databite No. 156: Hierarchy | Generative AI's Labor Impacts"](https://youtu.be/YlSpKtZ48h0?si=lZ81Rjr7n2-Bs2zL)  
-
-##
+["Databite No. 156: Hierarchy | Generative AI's Labor Impacts"](https://youtu.be/YlSpKtZ48h0?si=GNUb2MgMzAkkhA-0)  
 
 When people talk about generative AI, the spotlight almost always lands on the technology, the impressive outputs, the new capabilities, or the fear of machines replacing human creativity. What rarely gets mentioned is the human labor quietly fueling those systems. That’s exactly what this Data & Society panel, hosted by **Aiha Nguyen**, set out to explore in their discussion on *Generative AI and Labor Hierarchies.*
 The panel brought together **Dr. Milagros Miceli**, a sociologist and computer scientist who studies the people behind AI datasets, **Russell Brandom**, a journalist covering global tech infrastructures, and **John Lopez**, a screenwriter who helped negotiate the Writers Guild of America’s (WGA) recent AI agreement. Together, they looked beyond the surface of AI and asked a deeper question: who really makes it work?
@@ -56,5 +54,5 @@ After watching the conversation, I kept wondering: **How might we design AI syst
 That question feels central to the whole issue. The panelists emphasized transparency and fairness, but I think there’s still a missing piece redistribution. If millions of people are labeling data, moderating content, or contributing creative work to train models, then those workers should share in the value those models create. It’s not just about preventing harm; it’s about reimagining how value flows in the digital economy.
 
 **Watch The Panel:**
-🎥: [Generative AI and Labor Hierarchies – Data & Society](https://youtu.be/YlSpKtZ48h0?si=lZ81Rjr7n2-Bs2zL)
+🎥: [Generative AI and Labor Hierarchies – Data & Society](https://youtu.be/YlSpKtZ48h0?si=GNUb2MgMzAkkhA-0)
 
