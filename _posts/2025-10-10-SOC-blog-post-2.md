@@ -11,7 +11,7 @@ tags:
   - Tech Justice
 ---
 
-*Exploring what is "Addictive Intellegence" through a prism... .* 
+*Exploring what is "Addictive Intellegence" through the lens of AI companioship and its impacts.* 
 
 **Case Study by *Robert Mahari* and *Pat Pataranutaporn*:** 
 ["Addictive Intelligence: Understanding Psychological, Legal, and Technical Dimensions of AI Companionship"](https://mit-serc.pubpub.org/pub/iopjyxcx/release/2?readingCollection=132bb7af)  
