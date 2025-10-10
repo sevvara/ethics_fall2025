@@ -1,7 +1,7 @@
 ---
 title: 'SOC Blog 1: The Hidden Workforce Behind Generative AI'
 date: 2025-10-07
-permalink: /posts/2025/10/SOC-blog-post-2/
+permalink: /posts/2025/10/SOC-blog-post-1/
 tags:
   - AI Ethics
   - Generative AI 
