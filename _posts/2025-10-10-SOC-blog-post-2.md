@@ -1,5 +1,5 @@
 ---
-title: 'SOC Blog 2: The Hidden Workforce Behind Generative AI'
+title: 'SOC Blog 2: Addictive Intellegence - Dimensions Of AI Companionship'
 date: 2025-10-10
 permalink: /posts/2025/10/SOC-blog-post-2/
 tags:
