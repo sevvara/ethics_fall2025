@@ -5,7 +5,7 @@ permalink: /podcasts/podcast3
 excerpt: "Exploring the ethics of wearable technology: from fitness tracking and health data to privacy, consent, and the hidden costs of self-monitoring."
 date: 2025-10-28
 audio: ethics_fall2025/files/Murodova_Dagher_Podcast3.mp3
-image: wearable_insights.png
+image: ethics_fall2025/files/images/wearable_insights.png
 ---
 **🎥:**
 ["Listen on YouTube"](https://youtu.be/O6CnfGejKtM)  
