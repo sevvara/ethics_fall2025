@@ -10,6 +10,4 @@ image: /images/wearable_insights.png
 **🎥:**
 ["Listen on YouTube"](https://youtu.be/O6CnfGejKtM)
 
-[Wearable Insights](/images/wearable_insights.png)
-
 In this episode of *Etiquette*, Sevara and Alex talk about the blurred line between care and control in wearable technology. From our own experiences using devices like WHOOP to what researchers in 2023 and 2025 found about privacy, consent, and mental health, we explore what it really means to let technology measure our bodies and decisions. Do wearables help us understand ourselves better, or do they turn our lives into endless data points? It’s a grounded, honest conversation about the trade off between convenience and autonomy, and how ethics lives in the small, everyday choices we make with our tech.
