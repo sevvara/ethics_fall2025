@@ -29,6 +29,11 @@ Fairness sits somewhere between rule and exception. Individualization makes syst
 ## Why Uncertainty Matters
 What really stood out to me was how uncertainty plays into fairness. No dataset can perfectly capture a person’s life, yet we treat algorithmic accuracy as sacred. A 90% accuracy rate sounds great until you remember that the 10% left behind are real people. Exceptions give space for doubt, a moment to ask, What if this case is one of the outliers?
 
+## Let's Look At It Through The Ethical Lens
+At its core, the “right to be an exception” isn’t just a technical question,  it’s an ethical one. Algorithms challenge how we think about autonomy and accountability. If a person’s fate is decided by a system they didn’t design and can’t question, where does moral responsibility go? When a loan, grade, or job offer is denied because a model said so, we start to blur the line between decision-making and decision-delegating.
+
+There’s also a question of justice: do algorithms make the world fairer or just faster? Sometimes efficiency becomes the new form of bias, rules that favor those who already fit the data and disadvantage those who live at the margins of it. Ethical technology has to make space for the exceptions, because that’s where fairness actually beg.
+
 ## The Question I Keep Asking
 That made me wonder: **How should individuals be empowered to contest data-driven decisions that negatively affect them?**
 If algorithms continue shaping our opportunities, there should be a way to say, “Wait, I’m not just data.” Whether through transparency rules, advocacy groups, or audit tools, people deserve the right to challenge an algorithmic judgment and demand a human look.
