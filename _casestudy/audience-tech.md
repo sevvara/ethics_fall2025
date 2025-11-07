@@ -1,6 +1,6 @@
 ---
 title: "Audience: Tech Designers & Companies"
-layout: page
+layout: default
 ---
 
 # Audience: Tech Designers & Companies (Draft)

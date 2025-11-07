@@ -1,6 +1,6 @@
 ---
 title: "Citations"
-layout: page
+layout: default
 ---
 
 # Works Cited (Draft)

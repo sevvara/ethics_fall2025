@@ -1,6 +1,6 @@
 ---
 title: "Background: How Cookie Tracking Works"
-layout: page
+layout: default
 ---
 
 # Background: How Cookie Tracking Works (Draft)

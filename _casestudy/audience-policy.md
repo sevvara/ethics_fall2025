@@ -1,6 +1,6 @@
 ---
 title: "Audience: Policy Makers & Regulators"
-layout: page
+layout: default
 ---
 
 # Audience: Policy Makers & Regulators (Draft)

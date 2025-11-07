@@ -1,6 +1,6 @@
 ---
 title: "Stakeholder Overview"
-layout: page
+layout: default
 ---
 
 # Stakeholder Overview (Draft)

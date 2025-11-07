@@ -1,6 +1,6 @@
 ---
 title: "Interactive Activity: How Fast Do You Accept Cookies?"
-layout: page
+layout: default
 ---
 
 # Interactive Activity: How Fast Do You Accept Cookies? (Draft)

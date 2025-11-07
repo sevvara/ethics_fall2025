@@ -1,6 +1,6 @@
 ---
 title: "Audience: Internet Users"
-layout: page
+layout: default
 ---
 
 # Audience: Everyday Internet Users (Draft)
