@@ -1,7 +1,6 @@
 ---
 title: "Background: How Cookie Tracking Works"
 author_profile: true
-layout: default
 ---
 
 # Background: How Cookie Tracking Works (Draft)
@@ -22,4 +21,4 @@ Placeholder examples of manipulative UI choices.
 
 More content coming soon.
 
-[Back to main page](casestudy/)
+[Back to main page](_pages/casestudy.md/)
