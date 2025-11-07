@@ -4,13 +4,11 @@ title: "Case Study"
 author_profile: true
 ---
 
-# When “Accept All” Means Everything: How Cookie Consent Normalizes Data Surveillance
+**When “Accept All” Means Everything: How Cookie Consent Normalizes Data Surveillance**
 
 Every time users click **“Accept All”** on a cookie banner, they participate in one of the largest invisible data-collection systems online. While cookies were originally meant to improve user experience, they now fuel cross-site tracking, advertising, and behavioral profiling. This case study explores why meaningful consent rarely exists, how companies design banners to nudge users, and what happens to data once it begins circulating across the web.
 
----
-
-## Navigation  
+# Navigation  
 Choose a section to explore:
 
 - **[Background: How Cookie Tracking Works](/_casestudy/background.md)**  
@@ -24,8 +22,6 @@ Choose a section to explore:
 - **[Discussion Questions](#discussion-questions-draft)**  
 - **[Works Cited](/_casestudy/workscited.md)**  
 
----
-
 # Background (Draft)
 
 This section will explain:  
@@ -33,10 +29,6 @@ This section will explain:
 - First-party vs third-party cookies  
 - Why cookie banners were created  
 - How cross-site tracking works  
-
-Full content coming soon.
-
----
 
 # Ethical Problem (Draft)
 
@@ -46,10 +38,6 @@ This section will explore:
 - The imbalance of knowledge and power  
 - Why consent is not truly “informed” in current systems  
 
-Full content coming soon.
-
----
-
 # Stakeholders (Draft)
 
 This section will outline the motivations and concerns of:  
@@ -57,10 +45,6 @@ This section will outline the motivations and concerns of:
 - Tech companies  
 - Advertisers  
 - Regulators  
-
-Full content coming soon.
-
----
 
 # Interactive Activity Preview (Draft)
 
@@ -73,8 +57,6 @@ Users will respond to randomized “Accept All / Manage Preferences” pop-ups, 
 
 The activity will appear on the **Interactive Activity** page.
 
----
-
 # Discussion Questions (Draft)
 
 1. Is informed consent possible when people click automatically?  
@@ -83,10 +65,6 @@ The activity will appear on the **Interactive Activity** page.
 4. Do users have real control over how their data circulates?  
 5. How can transparency be improved?  
 
----
-
 # Works Cited (Draft)
 
-See the **[Works Cited](./workscited.md)** page for sources.
-
----
+See the **[Works Cited](/_casestudy/workscited.md)** page for sources.
