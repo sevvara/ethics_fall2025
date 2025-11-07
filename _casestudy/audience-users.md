@@ -17,4 +17,4 @@ Placeholder text describing how consent banners affect everyday browsing.
 
 More content coming soon.
 
-[Back to main page](./casestudy.md)
+[Back to main page](casestudy/)

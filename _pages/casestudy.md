@@ -67,4 +67,4 @@ The activity will appear on the **Interactive Activity** page.
 
 # Works Cited (Draft)
 
-See the **[Works Cited](/_casestudy/workscited.md)** page for sources.
+See the **[Works Cited](workscited/)** page for sources.

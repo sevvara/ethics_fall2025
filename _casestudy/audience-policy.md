@@ -16,4 +16,4 @@ Placeholder text about GDPR, CCPA, and limitations in enforcement.
 
 More content coming soon.
 
-[Back to main page](./casestudy.md)
+[Back to main page](casestudy/)

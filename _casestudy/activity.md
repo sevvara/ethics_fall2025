@@ -27,4 +27,4 @@ This page will contain a reaction-time test exploring how fast users click cooki
 
 Full interactive version coming soon.
 
-[Back to main page](./casestudy.md)
+[Back to main page](casestudy/)

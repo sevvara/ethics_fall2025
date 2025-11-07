@@ -16,4 +16,4 @@ Placeholder text describing dark patterns, transparency, and responsibility.
 
 Full content coming soon.
 
-[Back to main page](./casestudy.md)
+[Back to main page](casestudy/)

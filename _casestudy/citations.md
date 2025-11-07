@@ -37,4 +37,4 @@ Example of a real source you already used:
 
 More citations will be added as the case study develops.
 
-[Back to main case study page](../pages/casestudy.md)
+[Back to main case study page](casestudy/)
