@@ -10,19 +10,19 @@ Every time users click **“Accept All”** on a cookie banner, they participate
 
 ---
 
-## 📌 Navigation  
+## Navigation  
 Choose a section to explore:
 
-- **[Background: How Cookie Tracking Works](./background.md)**  
+- **[Background: How Cookie Tracking Works](/_casestudy/background.md)**  
 - **[Ethical Problem: The Illusion of Consent](#ethical-problem-draft)**  
-- **[Stakeholder Overview](./stakeholders.md)**  
-- **[Interactive Activity](./activity.md)**  
+- **[Stakeholder Overview](/_casestudy/stakeholders.md)**  
+- **[Interactive Activity](/_casestudy/activity.md)**  
 - **Audience Pages:**  
-  - [Internet Users](./audience-users.md)  
-  - [Tech Designers & Companies](./audience-tech.md)  
-  - [Policy Makers & Regulators](./audience-policy.md)  
+  - [Internet Users](/_casestudy/audience-users.md)  
+  - [Tech Designers & Companies](/_casestudy/audience-tech.md)  
+  - [Policy Makers & Regulators](/_casestudy/audience-policy.md)  
 - **[Discussion Questions](#discussion-questions-draft)**  
-- **[Works Cited](./workscited.md)**  
+- **[Works Cited](/_casestudy/workscited.md)**  
 
 ---
 
