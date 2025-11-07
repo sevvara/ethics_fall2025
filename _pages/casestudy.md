@@ -1,5 +1,7 @@
 ---
-title: "When 'Accept All' Means Everything: How Cookie Consent Normalizes Data Surveillance"
+permalink: /casestudy/
+title: "Case Study"
+author_profile: true
 layout: page
 ---
 
