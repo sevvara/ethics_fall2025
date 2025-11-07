@@ -19,4 +19,4 @@ Focus on transparency, fairness, and user protection.
 
 More detailed analysis coming soon.
 
-[Back to main page](./casestudy.md)
+[Back to main page](casestudy/)

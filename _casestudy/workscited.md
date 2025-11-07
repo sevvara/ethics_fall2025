@@ -11,4 +11,4 @@ layout: default
 
 More sources will be added as research continues.
 
-[Back to main page](./casestudy.md)
+[Back to main page](casestudy/)
