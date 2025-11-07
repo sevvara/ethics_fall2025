@@ -1,5 +1,6 @@
 ---
 title: "Audience: Policy Makers & Regulators"
+author_profile: true
 layout: default
 ---
 

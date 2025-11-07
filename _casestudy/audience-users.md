@@ -1,5 +1,6 @@
 ---
 title: "Audience: Internet Users"
+author_profile: true
 layout: default
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Stakeholder Overview"
+author_profile: true
 layout: default
 ---
 

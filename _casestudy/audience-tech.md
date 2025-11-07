@@ -1,5 +1,6 @@
 ---
 title: "Audience: Tech Designers & Companies"
+author_profile: true
 layout: default
 ---
 

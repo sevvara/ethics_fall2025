@@ -1,5 +1,6 @@
 ---
 title: "Citations"
+author_profile: true
 layout: default
 ---
 
