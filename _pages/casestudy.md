@@ -11,7 +11,7 @@ Every time users click **“Accept All”** on a cookie banner, they participate
 # Navigation  
 Choose a section to explore:
 
-- **[Background: How Cookie Tracking Works](/_casestudy/background.md)**  
+- **[Background: How Cookie Tracking Works](background/)**  
 - **[Ethical Problem: The Illusion of Consent](#ethical-problem-draft)**  
 - **[Stakeholder Overview](/_casestudy/stakeholders.md)**  
 - **[Interactive Activity](/_casestudy/activity.md)**  
