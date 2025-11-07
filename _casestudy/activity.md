@@ -1,6 +1,5 @@
 ---
 title: "Interactive Activity: How Fast Do You Accept Cookies?"
-author_profile: true
 layout: default
 ---
 
@@ -28,4 +27,4 @@ This page will contain a reaction-time test exploring how fast users click cooki
 
 Full interactive version coming soon.
 
-[Back to main page](casestudy/)
+[Back to main page](/casestudy/)

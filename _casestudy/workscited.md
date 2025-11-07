@@ -12,4 +12,4 @@ layout: default
 
 More sources will be added as research continues.
 
-[Back to main page](casestudy/)
+[Back to main page](/casestudy/)

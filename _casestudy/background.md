@@ -21,4 +21,4 @@ Placeholder examples of manipulative UI choices.
 
 More content coming soon.
 
-[Back to main page](_pages/casestudy.md/)
+[Back to main page](/casestudy/)
