@@ -1,17 +1,91 @@
 ---
-permalink: /casestudy/
-title: "Case Study"
-author_profile: true
+title: "When 'Accept All' Means Everything: How Cookie Consent Normalizes Data Surveillance"
+layout: page
 ---
 
-Drop spot for your case study work
+# When “Accept All” Means Everything: How Cookie Consent Normalizes Data Surveillance
 
-## Overview
+Every time users click **“Accept All”** on a cookie banner, they participate in one of the largest invisible data-collection systems online. While cookies were originally meant to improve user experience, they now fuel cross-site tracking, advertising, and behavioral profiling. This case study explores why meaningful consent rarely exists, how companies design banners to nudge users, and what happens to data once it begins circulating across the web.
 
-For your semester project, you and a partner will create an original case study
-modeled after those we read in class. Your case study must present an ethical issue in computing and can focus on any topic of your choosing. Some possible ideas include algorithmic bias and discrimination, surveillance technologies, facial recognition, data privacy, misinformation and deepfakes, generative AI and authorship, the climate impact of computing, digital labor and gig work, cybersecurity and hacking, accessibility and inclusion in technology, militarization of technology, AI companionship and social robotics, and cryptocurrency, though you are encouraged to select a topic not found on this list if it aligns with your interests and research.
+---
 
-## Requirements
+## 📌 Navigation  
+Choose a section to explore:
 
-Your case study will take the form of a website (built with Jekyll and GitHub Pages) that presents an ethical issue in computing. You will identify and research an ethical issue in computing or AI, write accessible content tailored for three different audiences, include an interactive activity that helps readers learn and reflect on the issue, and develop a set of discussion questions to spark engagement and deeper thinking. Your project must be engaging, well-researched, cite sources appropriately, and be designed for multiple audiences.
+- **[Background: How Cookie Tracking Works](./background.md)**  
+- **[Ethical Problem: The Illusion of Consent](#ethical-problem-draft)**  
+- **[Stakeholder Overview](./stakeholders.md)**  
+- **[Interactive Activity](./activity.md)**  
+- **Audience Pages:**  
+  - [Internet Users](./audience-users.md)  
+  - [Tech Designers & Companies](./audience-tech.md)  
+  - [Policy Makers & Regulators](./audience-policy.md)  
+- **[Discussion Questions](#discussion-questions-draft)**  
+- **[Works Cited](./workscited.md)**  
 
+---
+
+# Background (Draft)
+
+This section will explain:  
+- What cookies are  
+- First-party vs third-party cookies  
+- Why cookie banners were created  
+- How cross-site tracking works  
+
+Full content coming soon.
+
+---
+
+# Ethical Problem (Draft)
+
+This section will explore:  
+- Why most users click “Accept All” without understanding  
+- How dark patterns shape the choice  
+- The imbalance of knowledge and power  
+- Why consent is not truly “informed” in current systems  
+
+Full content coming soon.
+
+---
+
+# Stakeholders (Draft)
+
+This section will outline the motivations and concerns of:  
+- Internet users  
+- Tech companies  
+- Advertisers  
+- Regulators  
+
+Full content coming soon.
+
+---
+
+# Interactive Activity Preview (Draft)
+
+This project includes an interactive test that measures **how fast you react to cookie banners**.  
+Users will respond to randomized “Accept All / Manage Preferences” pop-ups, and the system will track:
+
+- reaction time  
+- whether you accepted “good” or “bad” cookies  
+- behavioral patterns  
+
+The activity will appear on the **Interactive Activity** page.
+
+---
+
+# Discussion Questions (Draft)
+
+1. Is informed consent possible when people click automatically?  
+2. Should laws require “Reject All” to be as visible as “Accept All”?  
+3. Who should be responsible for preventing dark patterns?  
+4. Do users have real control over how their data circulates?  
+5. How can transparency be improved?  
+
+---
+
+# Works Cited (Draft)
+
+See the **[Works Cited](./workscited.md)** page for sources.
+
+---
