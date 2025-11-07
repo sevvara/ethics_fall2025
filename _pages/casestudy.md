@@ -13,14 +13,14 @@ Choose a section to explore:
 
 - **[Background: How Cookie Tracking Works](background/)**  
 - **[Ethical Problem: The Illusion of Consent](#ethical-problem-draft)**  
-- **[Stakeholder Overview](/_casestudy/stakeholders.md)**  
-- **[Interactive Activity](/_casestudy/activity.md)**  
+- **[Stakeholder Overview](stakeholders/)**  
+- **[Interactive Activity](activity/)**  
 - **Audience Pages:**  
-  - [Internet Users](/_casestudy/audience-users.md)  
-  - [Tech Designers & Companies](/_casestudy/audience-tech.md)  
-  - [Policy Makers & Regulators](/_casestudy/audience-policy.md)  
+  - [Internet Users](audience-users/)  
+  - [Tech Designers & Companies](audience-tech/)  
+  - [Policy Makers & Regulators](audience-policy/)  
 - **[Discussion Questions](#discussion-questions-draft)**  
-- **[Works Cited](/_casestudy/workscited.md)**  
+- **[Works Cited](workscited/)**  
 
 # Background (Draft)
 
