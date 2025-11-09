@@ -28,4 +28,4 @@ This page will contain a reaction-time test exploring how fast users click cooki
 
 Full interactive version coming soon.
 
-[Back to main page](/casestudy/)
+[↩ Back to main page]({{ '/casestudy/' | relative_url }})
