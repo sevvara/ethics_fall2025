@@ -1,6 +1,7 @@
 ---
 title: "Background: How Cookie Tracking Works"
 author_profile: true
+layout: default
 ---
 
 # Background: How Cookie Tracking Works (Draft)
