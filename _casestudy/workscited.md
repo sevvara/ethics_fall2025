@@ -12,4 +12,5 @@ layout: default
 
 More sources will be added as research continues.
 
-[Back to main page](/casestudy/)
+[↩ Back to main page](https://sevvara.github.io/ethics_fall2025/casestudy/)
+

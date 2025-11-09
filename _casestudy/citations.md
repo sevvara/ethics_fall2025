@@ -38,4 +38,4 @@ Example of a real source you already used:
 
 More citations will be added as the case study develops.
 
-[Back to main case study page](/casestudy/)
+[↩ Back to main page](https://sevvara.github.io/ethics_fall2025/casestudy/)

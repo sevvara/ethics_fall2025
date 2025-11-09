@@ -17,4 +17,4 @@ Placeholder text describing dark patterns, transparency, and responsibility.
 
 Full content coming soon.
 
-[Back to main page](/casestudy/)
+[↩ Back to main page](https://sevvara.github.io/ethics_fall2025/casestudy/)
