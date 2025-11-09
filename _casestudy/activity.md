@@ -2,7 +2,6 @@
 title: "Interactive Activity: How Fast Do You Accept Cookies?"
 author_profile: true
 layout: default
-permalink: /casestudy/
 ---
 
 # Interactive Activity: How Fast Do You Accept Cookies? (Draft)
