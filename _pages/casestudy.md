@@ -22,21 +22,39 @@ Choose a section to explore:
 - **[Discussion Questions](#discussion-questions-draft)**  
 - **[Works Cited](workscited/)**  
 
-# Background (Draft)
-
-This section will explain:  
-- What cookies are  
-- First-party vs third-party cookies  
-- Why cookie banners were created  
-- How cross-site tracking works  
-
 # Ethical Problem (Draft)
 
-This section will explore:  
-- Why most users click “Accept All” without understanding  
-- How dark patterns shape the choice  
-- The imbalance of knowledge and power  
-- Why consent is not truly “informed” in current systems  
+Ethical Problem (Draft)
+Cookies sit at the intersection of user autonomy, corporate incentives, and governance. Although users are “asked” to consent, decades of research in behavioral economics and human-computer interaction suggests that this consent is neither informed nor free.
+**Why Most Users Click “Accept All”**
+Several factors converge:
+- Cognitive fatigue — Banners appear constantly; users want to browse, not negotiate permissions.
+- UI pressure — The path of least resistance (one click) overwhelmingly leads to tracking.
+- Information asymmetry — Users do not understand what cookies actually do.
+- Transfer of risk — Users bear the privacy risk; companies capture the financial upside.
+This dynamic mirrors what legal theorists call “structural consent failure”: a system designed to create the appearance of choice without offering meaningful alternatives (Richards & Hartzog, 2021).
+ [Link:] (https://academic.oup.com/jla/article/13/1/43/6180579)
+
+## How Dark Patterns Shape the Choice
+Dark patterns aren’t merely annoying — they are forms of digital coercion. Regulators have begun identifying them as unethical or unlawful because they exploit cognitive biases such as:
+- Default bias — users stick with whatever is easiest
+- Framing effects — positive language around acceptance
+- Friction asymmetry — declining requires many steps; accepting requires one
+Furman et al. (2022) show that users are far more likely to accept cookies when banners use color and placement to highlight the “Accept All” button.
+
+[Link:] (https://www.sciencedirect.com/science/article/pii/S0167811623000708)
+
+These techniques undermine the principle of informed consent and create a situation where behavioral manipulation is normalized.
+
+## Imbalance of Knowledge and Power
+Tech companies understand tracking technologies deeply and profit from them. Users, by contrast, see only a brief pop-up with vague wording. This information imbalance generates an ethical problem similar to the power asymmetries discussed in business-ethics literature (Crane & Matten, 2004).
+[Link:] (https://link.springer.com/article/10.1007/s10551-005-1421-8)
+Companies design the system; users navigate it.
+- Who benefits?
+- Who bears the risk?
+- Whose autonomy is being reduced?
+These questions illustrate why the cookie consent ecosystem is closer to surveillance by default than genuine user empowerment.
+
 
 # Stakeholders (Draft)
 
@@ -45,6 +63,49 @@ This section will outline the motivations and concerns of:
 - Tech companies  
 - Advertisers  
 - Regulators  
+
+**Internet Users**
+Users want:
+- privacy
+- agency
+- easy-to-use websites
+- protection from exploitation
+
+But they face:
+- confusing banners
+- power asymmetries
+- lack of transparency
+- fatigue from repeated consent decisions
+The average user has neither the time nor the expertise to evaluate dozens of trackers per day.
+
+**Tech Companies**
+Tech companies benefit from data collection and personalization. They often justify tracking by emphasizing:
+personalization:
+
+- “free” services supported by ads
+- efficiency of targeted advertising
+But profit incentives push them to implement dark patterns, minimize transparency, and maximize acceptance rates. Data fuels recommendation systems, advertising algorithms, and behavioral analytics — a competitive advantage (Aalto doctoral thesis on tracking ecosystems).
+[Link:] (https://aaltodoc.aalto.fi/items/930fa379-af73-4954-a518-872c848b5273)
+
+**Advertisers**
+Advertisers rely on:
+- detailed user profiles
+- cross-site tracking
+- algorithmic bidding markets
+- behavioral prediction
+
+Without cookies, targeted advertising becomes less precise. Stakeholder research shows advertisers fear “signal loss” and declining ROI as privacy restrictions increase.
+
+**Regulators**
+Regulators aim to protect users while allowing digital markets to function. But enforcement remains difficult:
+Dark patterns evolve faster than law
+
+- Cross-border enforcement is complicated
+- Many websites do the bare minimum for compliance
+Studies highlight limited compliance with GDPR even years after implementation (Santos et al., 2022).
+[Link:] (https://dl.acm.org/doi/abs/10.1145/3564625.3564647)
+Regulators are therefore both necessary stakeholders and reactive participants in a rapidly 
+
 
 # Interactive Activity Preview (Draft)
 
