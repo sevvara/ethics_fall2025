@@ -1,7 +1,13 @@
 ---
+title: "Case study"
+layout: single 
+
+collection: casestudy
 permalink: /casestudy/
-title: "Case Study"
 author_profile: true
+share: false 
+layout: default
+#nav_order: 0
 ---
 
 **When “Accept All” Means Everything: How Cookie Consent Normalizes Data Surveillance**
