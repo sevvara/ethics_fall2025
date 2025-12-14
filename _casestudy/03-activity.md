@@ -17,7 +17,7 @@ This interactive experiment tests your reaction time and decision-making when fa
 
 <div style="width: 100%; max-width: 600px; margin: 30px auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <iframe 
-    src="../game/" 
+    src="/ethics_fall2025/casestudy/game/" 
     style="width: 100%; height: 450px; border: none; display: block;" 
     title="Cookie Consent Game">
   </iframe>
@@ -25,8 +25,8 @@ This interactive experiment tests your reaction time and decision-making when fa
 
 ## Reflection
 
-**Did you feel the friction?** In the activity above, you likely noticed that identifying the "Reject" option became progressively harder. This was not accidental; it was a simulation of **Friction Asymmetry**.
+**Did you feel the friction?** In the activity above, you likely noticed that identifying the "Reject" option became progressively harder. [cite_start]This was not accidental; it was a simulation of **Friction Asymmetry**[cite: 180].
 
 **Key Concept: Structural Consent Failure**
-If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**. In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it.
+[cite_start]If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**[cite: 169]. [cite_start]In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it[cite: 173].
 {: .notice}
