@@ -1,15 +1,12 @@
 ---
-title: "Activity"
-layout: single 
-
-collection: casestudy
-permalink: /casestudy/activity/
-author_profile: true
-#nav_order: 3
+layout: page
+title: "Lab: The 'Accept All' Reflex Test"
+permalink: /activity/
 ---
+
 This interactive experiment tests your reaction time and decision-making when faced with different types of cookie banners.
 
-**The Hypothesis:** Research suggests that users do not read cookie banners; they merely react to visual cues. [cite_start]Dark patterns exploit this by making the "Accept" action significantly faster and physically easier to perform than the "Reject" action. [cite: 160, 161]
+**The Hypothesis:** Research suggests that users do not read cookie banners; they merely react to visual cues. Dark patterns exploit this by making the "Accept" action significantly faster and physically easier to perform than the "Reject" action.
 
 ### Instructions
 1. Click **"Start Experiment"** below.
@@ -17,25 +14,25 @@ This interactive experiment tests your reaction time and decision-making when fa
 3. Your goal is to **REJECT** non-essential cookies or **MANAGE** preferences whenever possible.
 4. The system will track your reaction time and your choices.
 
-<div id="game-container" style="border: 1px solid #ccc; background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 20px 0; min-height: 300px; text-align: center;">
+<div id="game-container" style="border: 2px solid currentColor; background: transparent; color: inherit; padding: 30px; border-radius: 8px; margin: 20px 0; min-height: 350px; text-align: center;">
 
   <div id="intro-screen">
-    <h3>Ready to test your autonomy?</h3>
-    <p>Try to REJECT tracking on the following banners.</p>
+    <h3 style="color: inherit; margin-top: 0;">Ready to test your autonomy?</h3>
+    <p style="color: inherit;">Try to <strong>REJECT</strong> tracking on the following banners.</p>
     <br>
     <button id="start-btn" class="btn btn--primary" style="font-size: 1.2em;">Start Experiment</button>
   </div>
 
   <div id="game-screen" style="display: none;">
-    <div id="banner-box" style="background: white; padding: 30px; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); max-width: 500px; margin: 0 auto;">
+    <div id="banner-box" style="background: #ffffff; padding: 30px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); max-width: 500px; margin: 0 auto; color: #333333;">
       </div>
   </div>
 
   <div id="result-screen" style="display: none;">
-    <h3>Test Complete</h3>
-    <h1 id="score-display" style="color: #2c3e50; margin: 10px 0;">0.0s</h1>
-    <p>Average Reaction Time</p>
-    <div id="analysis-text" style="text-align: left; margin-top: 20px;"></div>
+    <h3 style="color: inherit;">Test Complete</h3>
+    <h1 id="score-display" style="color: inherit; margin: 10px 0; font-size: 3em;">0.0s</h1>
+    <p style="color: inherit;">Average Reaction Time</p>
+    <div id="analysis-text" style="text-align: left; margin-top: 20px; color: inherit;"></div>
     <br>
     <button onclick="location.reload()" class="btn">Try Again</button>
   </div>
@@ -43,7 +40,7 @@ This interactive experiment tests your reaction time and decision-making when fa
 </div>
 
 <style>
-  /* Custom styles for the game elements to prevent theme conflicts */
+  /* These styles apply ONLY to the buttons inside the white cookie popup */
   .game-option-btn {
     padding: 10px 20px;
     margin: 5px;
@@ -51,16 +48,30 @@ This interactive experiment tests your reaction time and decision-making when fa
     cursor: pointer;
     font-size: 14px;
     border: 1px solid #ccc;
-    background: #e1e1e1;
-    color: #333;
+    background: #e1e1e1; /* Light grey button */
+    color: #333; /* Dark text for button */
   }
   
-  /* Dark Pattern Styles */
-  .highlighted { background-color: #2980b9; color: white; font-weight: bold; border-color: #2980b9; }
-  .hidden-link { background: none; border: none; text-decoration: underline; color: #7f8c8d; font-size: 12px; }
-  
-  /* Prevent code highlighting on game text */
-  #banner-box p { font-size: 16px; margin-bottom: 20px; }
+  /* Dark Pattern Highlighting */
+  .highlighted { 
+    background-color: #2980b9; 
+    color: white; 
+    border-color: #2980b9; 
+  }
+  .hidden-link { 
+    background: transparent; 
+    border: none; 
+    text-decoration: underline; 
+    color: #7f8c8d; 
+    font-size: 12px; 
+  }
+
+  /* Ensure text inside the WHITE popup stays BLACK regardless of dark mode */
+  #banner-box p {
+    color: #333333 !important;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 </style>
 
 <script>
@@ -102,13 +113,11 @@ This interactive experiment tests your reaction time and decision-making when fa
     var yesClass = "game-option-btn";
     var noClass = "game-option-btn";
 
-    // Apply Dark Patterns
     if(data.type === "dark" || data.type === "friction") {
       yesClass += " highlighted";
       noClass = (data.type === "dark") ? "hidden-link" : "game-option-btn";
     }
 
-    // Randomize Button Order
     var btnsHTML = "";
     if(Math.random() > 0.5) {
       btnsHTML = `<button class="${yesClass}" onclick="record('accept')">${data.yes}</button>
@@ -120,7 +129,6 @@ This interactive experiment tests your reaction time and decision-making when fa
 
     bannerBox.innerHTML = `<p>${data.text}</p><div>${btnsHTML}</div>`;
     
-    // Explicitly attach functions to window for inline onclick to work in this scope
     window.record = function(choice) {
       var time = (Date.now() - startTime) / 1000;
       results.push({c: choice, t: time});
@@ -154,5 +162,5 @@ This interactive experiment tests your reaction time and decision-making when fa
 **Did you feel the friction?** In the activity above, you likely noticed that identifying the "Reject" option became progressively harder. This was not accidental; it was a simulation of **Friction Asymmetry**.
 
 **Key Concept: Structural Consent Failure**
-If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**. [cite_start]In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it. [cite: 173]
+If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**. [cite_start]In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it[cite: 173].
 {: .notice}
