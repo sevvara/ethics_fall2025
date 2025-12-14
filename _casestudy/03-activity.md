@@ -17,7 +17,7 @@ This interactive experiment tests your reaction time and decision-making when fa
 
 <div style="width: 100%; max-width: 600px; margin: 30px auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <iframe 
-    src="/casestudy/game/" 
+    src="{{ '/casestudy/game/' | relative_url }}" 
     style="width: 100%; height: 450px; border: none; display: block;" 
     title="Cookie Consent Game">
   </iframe>
