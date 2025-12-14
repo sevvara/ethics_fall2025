@@ -1,0 +1,185 @@
+---
+layout: null
+permalink: /casestudy/game/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cookie Consent Game</title>
+  <style>
+    /* 1. The Box Environment (Always White, Always Dark Text) */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff; 
+      color: #333333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* 2. The Game Wrapper */
+    #game-wrapper {
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h3 { margin-top: 0; color: #222; }
+    p { font-size: 16px; color: #555; line-height: 1.5; margin-bottom: 25px; }
+
+    /* 3. The Start Button (Blue) */
+    #start-btn {
+      background-color: #2563eb;
+      color: white;
+      font-weight: bold;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.2s;
+    }
+    #start-btn:hover { background-color: #1d4ed8; }
+
+    /* 4. The Cookie Popup Card */
+    .cookie-card {
+      background: #ffffff;
+      padding: 30px;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      text-align: left;
+    }
+    
+    .popup-msg { font-size: 16px; margin-bottom: 20px; color: #333; }
+
+    /* 5. Game Buttons */
+    .btn-option {
+      padding: 10px 15px;
+      margin: 5px 5px 5px 0;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      border: 1px solid #d1d5db;
+      background: #f3f4f6;
+      color: #1f2937;
+    }
+
+    /* Dark Pattern Styles */
+    .style-high { background-color: #2563eb; color: white; border-color: #2563eb; }
+    .style-low { background: transparent; border: none; text-decoration: underline; color: #6b7280; padding: 0; margin-left: 10px; }
+
+    .hidden { display: none !important; }
+    
+    /* Results */
+    #score { font-size: 3em; font-weight: 800; color: #2563eb; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+  <div id="game-wrapper">
+    
+    <div id="screen-intro">
+      <h3>Ready to test your autonomy?</h3>
+      <p>Try to <strong>REJECT</strong> tracking on the next 5 banners.</p>
+      <button id="start-btn">Start Experiment</button>
+    </div>
+
+    <div id="screen-game" class="hidden">
+      <div id="banner-area" class="cookie-card">
+        </div>
+    </div>
+
+    <div id="screen-result" class="hidden">
+      <h3>Test Complete</h3>
+      <div id="score">0.0s</div>
+      <p>Average Reaction Time</p>
+      <div id="analysis" style="text-align: left; background: #f8fafc; padding: 15px; border-radius: 6px; border: 1px solid #e2e8f0; font-size: 14px;"></div>
+      <br>
+      <button onclick="location.reload()" class="btn-option">Try Again</button>
+    </div>
+
+  </div>
+
+  <script>
+    // Game Logic
+    const scenarios = [
+      { text: "We use cookies for functionality.", yes: "Accept", no: "Reject", type: "neutral" },
+      { text: "Agree to our terms to continue?", yes: "I AGREE", no: "Settings", type: "dark" },
+      { text: "Enable personalized ads?", yes: "Yes, enable", no: "No, thanks", type: "dark" },
+      { text: "Privacy Update: Partners List Modified.", yes: "Accept & Close", no: "Manage Options", type: "friction" },
+      { text: "Enhance your experience!", yes: "OK", no: "More Info", type: "dark" }
+    ];
+
+    let round = 0;
+    let startTime = 0;
+    let results = [];
+
+    const intro = document.getElementById('screen-intro');
+    const game = document.getElementById('screen-game');
+    const resultScreen = document.getElementById('screen-result');
+    const banner = document.getElementById('banner-area');
+    const startBtn = document.getElementById('start-btn');
+
+    // Robust Start Listener
+    startBtn.addEventListener('click', function() {
+      intro.classList.add('hidden');
+      game.classList.remove('hidden');
+      nextRound();
+    });
+
+    function nextRound() {
+      if (round >= 5) {
+        endGame();
+        return;
+      }
+
+      const data = scenarios[round];
+      let yesClass = "btn-option";
+      let noClass = "btn-option";
+
+      if (data.type === "dark" || data.type === "friction") {
+        yesClass += " style-high"; // Blue button
+        noClass = (data.type === "dark") ? "style-low" : "btn-option"; // Hidden link or normal
+      }
+
+      // Randomize Left/Right
+      const btnYes = `<button class="${yesClass}" onclick="record('accept')">${data.yes}</button>`;
+      const btnNo = `<button class="${noClass}" onclick="record('reject')">${data.no}</button>`;
+      
+      const buttons = Math.random() > 0.5 ? btnYes + btnNo : btnNo + btnYes;
+
+      banner.innerHTML = `<div class="popup-msg">${data.text}</div><div>${buttons}</div>`;
+      startTime = Date.now();
+    }
+
+    // Attached to window so onclick works
+    window.record = function(choice) {
+      const time = (Date.now() - startTime) / 1000;
+      results.push({c: choice, t: time});
+      round++;
+      nextRound();
+    };
+
+    function endGame() {
+      game.classList.add('hidden');
+      resultScreen.classList.remove('hidden');
+      
+      const avg = (results.reduce((a,b)=>a+b.t,0) / 5).toFixed(2);
+      const rejects = results.filter(r => r.c === 'reject').length;
+
+      document.getElementById('score').innerText = avg + "s";
+      document.getElementById('analysis').innerHTML = `
+        <strong>Analysis:</strong> You rejected <strong>${rejects}/5</strong> trackers.<br><br>
+        ${avg < 1.5 ? "Your speed suggests you relied on visual cues (System 1 thinking), making you vulnerable to dark patterns." : "You took your time to fight the friction. In the real world, this 'time tax' often causes users to give up."}
+      `;
+    }
+  </script>
+</body>
+</html>
