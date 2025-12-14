@@ -5,7 +5,6 @@ layout: single
 collection: casestudy
 permalink: /casestudy/background/
 author_profile: true
-layout: default
 #nav_order: 0
 ---
 

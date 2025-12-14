@@ -5,7 +5,6 @@ layout: single
 collection: casestudy
 permalink: /casestudy/audience-tech/
 author_profile: true
-layout: default
 #nav_order: 5
 ---
 

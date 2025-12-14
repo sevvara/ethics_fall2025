@@ -5,7 +5,6 @@ layout: single
 collection: casestudy
 permalink: /casestudy/activity/
 author_profile: true
-layout: default
 #nav_order: 3
 ---
 This interactive experiment tests your reaction time and decision-making when faced with different types of cookie banners.

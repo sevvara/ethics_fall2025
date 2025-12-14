@@ -6,7 +6,6 @@ collection: casestudy
 permalink: /casestudy/
 author_profile: true
 share: false 
-layout: default
 #nav_order: 0
 ---
 
