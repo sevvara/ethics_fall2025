@@ -5,7 +5,6 @@ layout: single
 collection: casestudy
 permalink: /casestudy/background/
 author_profile: true
-#nav_order: 0
 ---
 
 ## What is a Cookie?
@@ -54,4 +53,3 @@ sequenceDiagram
         AdTech->>AdTech: 6. Log: "User_12345 likes Politics"
     end
 
-[↩ Back to main page](https://sevvara.github.io/ethics_fall2025/casestudy/)

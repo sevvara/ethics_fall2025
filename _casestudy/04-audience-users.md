@@ -22,4 +22,3 @@ Placeholder text describing how consent banners affect everyday browsing.
 
 More content coming soon.
 
-[↩ Back to main page](https://sevvara.github.io/ethics_fall2025/casestudy/)
