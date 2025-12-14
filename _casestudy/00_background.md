@@ -1,8 +1,14 @@
 ---
-title: "Background: How Cookie Tracking Works"
+title: "Background"
+layout: single 
+
+collection: casestudy
+permalink: /casestudy/background/
 author_profile: true
 layout: default
+#nav_order: 0
 ---
+
 ## What is a Cookie?
 
 At its simplest, a cookie is just a small text file stored on your computer by your browser. It was invented in 1994 by Lou Montulli at Netscape to solve a specific problem: **memory**.

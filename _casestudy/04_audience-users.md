@@ -1,7 +1,12 @@
 ---
 title: "Audience: Internet Users"
+layout: single 
+
+collection: casestudy
+permalink: /casestudy/audience-users/
 author_profile: true
 layout: default
+#nav_order: 4 
 ---
 
 # Audience: Everyday Internet Users (Draft)

@@ -223,9 +223,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  collections:
   casestudy:
     output: true
-    permalink: /:collection/:path/
+    permalink: /casestudy/:name/
 
 
 # These settings control how pages and collections are included in the site

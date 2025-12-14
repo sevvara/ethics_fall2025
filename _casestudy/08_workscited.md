@@ -1,9 +1,13 @@
 ---
 title: "Works Cited"
+layout: single 
+
+collection: casestudy
+permalink: /casestudy/workscited/
 author_profile: true
 layout: default
+#nav_order: 8
 ---
-
 # Works Cited (Draft)
 
 - Placeholder source 1  
