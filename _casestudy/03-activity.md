@@ -8,7 +8,7 @@ author_profile: true
 
 This interactive experiment tests your reaction time and decision-making when faced with different types of cookie banners.
 
-**The Hypothesis:** Research suggests that users do not read cookie banners; they merely react to visual cues. [cite_start]Dark patterns exploit this by making the "Accept" action significantly faster and physically easier to perform than the "Reject" action[cite: 160, 161].
+**The Hypothesis:** Research suggests that users do not read cookie banners; they merely react to visual cues. [cite_start]Dark patterns exploit this by making the "Accept" action significantly faster and physically easier to perform than the "Reject" action[cite: 63, 115].
 
 ### Instructions
 1. Click **"Start Experiment"** in the window below.
@@ -23,10 +23,20 @@ This interactive experiment tests your reaction time and decision-making when fa
   </iframe>
 </div>
 
-## Reflection
+---
 
-**Did you feel the friction?** In the activity above, you likely noticed that identifying the "Reject" option became progressively harder. [cite_start]This was not accidental; it was a simulation of **Friction Asymmetry**[cite: 180].
+## Class Discussion & Reflection
 
-**Key Concept: Structural Consent Failure**
-[cite_start]If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**[cite: 169]. [cite_start]In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it[cite: 173].
-{: .notice}
+Use the results from your activity to answer the following questions. These move from your personal experience to broader ethical implications.
+
+### 1. The Personal Experience (Reflection)
+* **Reaction Time:** Compare your reaction time on the "Good" banners vs. the "Dark Pattern" banners. How much longer did it take you to find the "Reject" button?
+* **Frustration:** Did you feel a moment of hesitation or annoyance when the button wasn't where you expected? [cite_start]Researchers call this "cognitive fatigue"[cite: 51]. Why do you think designers intentionally create this feeling?
+
+### 2. Analyzing the Design (Application)
+* **Identify the trick:** Look at the banners you failed to reject. Which specific dark pattern tricked you? [cite_start]Was it a color highlight (Visual Interference) or confusing language (Framing)?[cite: 37, 38].
+* **The "Default" Bias:** If you were in a hurry to read a news article, would you have taken the time to reject these cookies? How does the "path of least resistance" shape our online privacy?
+
+### 3. The Ethical Dilemma (Critical Thinking)
+* **Informed Consent:** The GDPR requires consent to be "freely given." [cite_start]If a design makes rejecting cookies 5x slower than accepting them, is the user's choice actually free?[cite: 30].
+* [cite_start]**Structural Consent Failure:** Richards & Hartzog argue that we are experiencing "structural consent failure"[cite: 55]. Based on this activity, do you agree that the entire system of banner consent is broken? What would a truly ethical alternative look like?
