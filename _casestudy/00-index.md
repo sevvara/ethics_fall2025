@@ -6,7 +6,7 @@ collection: casestudy
 permalink: /casestudy/
 author_profile: true
 share: false 
-#nav_order: 0
+nav_order: 0
 ---
 
 **When “Accept All” Means Everything: How Cookie Consent Normalizes Data Surveillance**
