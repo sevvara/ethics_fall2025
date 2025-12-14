@@ -1,15 +1,12 @@
 ---
-title: "Activity"
-layout: single 
-
-collection: casestudy
-permalink: /casestudy/activity/
-author_profile: true
-#nav_order: 3
+layout: page
+title: "Lab: The 'Accept All' Reflex Test"
+permalink: /activity/
 ---
+
 This interactive experiment tests your reaction time and decision-making when faced with different types of cookie banners.
 
-**The Hypothesis:** Research suggests that users do not read cookie banners; they merely react to visual cues. [cite_start]Dark patterns exploit this by making the "Accept" action significantly faster and physically easier to perform than the "Reject" action. [cite: 160, 161]
+**The Hypothesis:** Research suggests that users do not read cookie banners; they merely react to visual cues. [cite_start]Dark patterns exploit this by making the "Accept" action significantly faster and physically easier to perform than the "Reject" action[cite: 160, 161].
 
 ### Instructions
 1. Click **"Start Experiment"** below.
@@ -17,25 +14,25 @@ This interactive experiment tests your reaction time and decision-making when fa
 3. Your goal is to **REJECT** non-essential cookies or **MANAGE** preferences whenever possible.
 4. The system will track your reaction time and your choices.
 
-<div id="game-container" style="border: 1px solid #ccc; background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 20px 0; min-height: 300px; text-align: center;">
+<div id="game-container" style="border: 1px solid #ccc; background-color: #ffffff !important; color: #222222 !important; padding: 30px; border-radius: 8px; margin: 20px 0; min-height: 350px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
 
   <div id="intro-screen">
-    <h3>Ready to test your autonomy?</h3>
-    <p>Try to REJECT tracking on the following banners.</p>
+    <h3 style="color: #222222 !important; margin-top: 0;">Ready to test your autonomy?</h3>
+    <p style="color: #555555 !important;">Try to <strong>REJECT</strong> tracking on the following banners.</p>
     <br>
     <button id="start-btn" class="btn btn--primary" style="font-size: 1.2em;">Start Experiment</button>
   </div>
 
   <div id="game-screen" style="display: none;">
-    <div id="banner-box" style="background: white; padding: 30px; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); max-width: 500px; margin: 0 auto;">
+    <div id="banner-box" style="background: #fdfdfd !important; padding: 30px; border: 1px solid #eee; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); max-width: 500px; margin: 0 auto; color: #333 !important;">
       </div>
   </div>
 
   <div id="result-screen" style="display: none;">
-    <h3>Test Complete</h3>
-    <h1 id="score-display" style="color: #2c3e50; margin: 10px 0;">0.0s</h1>
-    <p>Average Reaction Time</p>
-    <div id="analysis-text" style="text-align: left; margin-top: 20px;"></div>
+    <h3 style="color: #222222 !important;">Test Complete</h3>
+    <h1 id="score-display" style="color: #2c3e50 !important; margin: 10px 0; font-size: 3em;">0.0s</h1>
+    <p style="color: #555555 !important;">Average Reaction Time</p>
+    <div id="analysis-text" style="text-align: left; margin-top: 20px; color: #333 !important;"></div>
     <br>
     <button onclick="location.reload()" class="btn">Try Again</button>
   </div>
@@ -43,7 +40,15 @@ This interactive experiment tests your reaction time and decision-making when fa
 </div>
 
 <style>
-  /* Custom styles for the game elements to prevent theme conflicts */
+  /* Force text colors inside the game to stay dark even in dark mode */
+  #game-container h3, 
+  #game-container p, 
+  #game-container div,
+  #banner-box p {
+    color: #222222 !important;
+  }
+
+  /* Game Buttons */
   .game-option-btn {
     padding: 10px 20px;
     margin: 5px;
@@ -51,16 +56,23 @@ This interactive experiment tests your reaction time and decision-making when fa
     cursor: pointer;
     font-size: 14px;
     border: 1px solid #ccc;
-    background: #e1e1e1;
-    color: #333;
+    background: #e1e1e1 !important; /* Force light grey */
+    color: #333 !important; /* Force dark text */
   }
   
   /* Dark Pattern Styles */
-  .highlighted { background-color: #2980b9; color: white; font-weight: bold; border-color: #2980b9; }
-  .hidden-link { background: none; border: none; text-decoration: underline; color: #7f8c8d; font-size: 12px; }
-  
-  /* Prevent code highlighting on game text */
-  #banner-box p { font-size: 16px; margin-bottom: 20px; }
+  .highlighted { 
+    background-color: #2980b9 !important; 
+    color: white !important; 
+    border-color: #2980b9 !important; 
+  }
+  .hidden-link { 
+    background: transparent !important; 
+    border: none; 
+    text-decoration: underline; 
+    color: #7f8c8d !important; 
+    font-size: 12px; 
+  }
 </style>
 
 <script>
@@ -120,7 +132,6 @@ This interactive experiment tests your reaction time and decision-making when fa
 
     bannerBox.innerHTML = `<p>${data.text}</p><div>${btnsHTML}</div>`;
     
-    // Explicitly attach functions to window for inline onclick to work in this scope
     window.record = function(choice) {
       var time = (Date.now() - startTime) / 1000;
       results.push({c: choice, t: time});
@@ -154,5 +165,5 @@ This interactive experiment tests your reaction time and decision-making when fa
 **Did you feel the friction?** In the activity above, you likely noticed that identifying the "Reject" option became progressively harder. This was not accidental; it was a simulation of **Friction Asymmetry**.
 
 **Key Concept: Structural Consent Failure**
-If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**. [cite_start]In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it. [cite: 173]
+If you found yourself clicking "Accept" just to make the test end faster, you experienced **cognitive fatigue**. In the real world, this leads to what researchers call "structural consent failure"—where the system is designed to extract consent rather than request it.
 {: .notice}
