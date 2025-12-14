@@ -1,5 +1,5 @@
 ---
-title: "Ethics"
+title: "Activity"
 layout: single 
 
 collection: casestudy
