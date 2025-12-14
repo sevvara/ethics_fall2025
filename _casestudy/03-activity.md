@@ -1,7 +1,11 @@
 ---
-layout: page
-title: "Lab: The 'Accept All' Reflex Test"
-permalink: /activity/
+title: "Ethics"
+layout: single 
+
+collection: casestudy
+permalink: /casestudy/activity/
+author_profile: true
+#nav_order: 3
 ---
 
 This interactive experiment tests your reaction time and decision-making when faced with different types of cookie banners.
