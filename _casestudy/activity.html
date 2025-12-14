@@ -1,8 +1,9 @@
 ---
-title: "Interactive Activity: How Fast Do You Accept Cookies?"
-author_profile: true
-layout: default
+layout: page
+title: Interactive Lab
+permalink: /activity/
 ---
+
 <style>
   #game-wrapper {
     font-family: sans-serif;
@@ -194,7 +195,7 @@ layout: default
       
       let analysis = "<p><strong>Analysis:</strong> ";
       if(avg < 1.5) analysis += "You reacted very quickly (System 1 thinking), making you susceptible to visual manipulation. ";
-      [cite_start]if(rejects < 3) analysis += "Despite your goal, the design nudged you into accepting cookies you didn't want (Structural Consent Failure). [cite: 55]";
+      if(rejects < 3) analysis += "Despite your goal, the design nudged you into accepting cookies you didn't want (Structural Consent Failure). [cite: 55]";
       else analysis += "You successfully resisted the design, likely by paying a 'time tax'—taking longer to find the hidden buttons.";
       
       document.getElementById('analysis-output').innerHTML = analysis + "</p>";
@@ -208,8 +209,3 @@ layout: default
     }
   })();
 </script>
-
-[Return to Case Study Home](../) | [Next: Discussion Questions](../discussion/)
-
-[↩ Back to main page](https://sevvara.github.io/ethics_fall2025/casestudy/)
-
