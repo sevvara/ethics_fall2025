@@ -24,19 +24,19 @@ The sections that follow explore each group in greater detail, highlighting how 
 Internet users are the individuals most directly affected by cookie tracking, yet they often have the least visibility into how their data is collected, shared, and reused. While users are presented as decision-makers through consent banners, their choices are shaped by limited information, interface design, and the pressure to access content quickly.
 
 The **Internet Users** page focuses on autonomy, understanding, and the everyday experience of consent from the user’s perspective.
-[Learn more:](/_casestudy/05-audience-users.md)
+[Learn more](https://sevvara.github.io/ethics_fall2025//casestudy/audience-users/)
 
 **Tech Designers & Companies**
 Designers and technology companies build the systems that make cookie consent possible. They operate under business pressures, legal requirements, and performance metrics that influence how consent mechanisms are designed and deployed.
 
 The Tech Designers & Companies page examines how economic incentives, UX decisions, and platform architectures shape consent, and how ethical responsibility fits into those design choices.
-[Learn more:](/_casestudy/06-audience-tech.md)
+[Learn more](https://sevvara.github.io/ethics_fall2025//casestudy/audience-tech/)
 
 **Policy Makers & Regulators**
 Regulators aim to protect users by defining what consent legally requires, yet they must translate abstract values like transparency and fairness into enforceable rules. Gaps between regulation and technical reality often leave room for compliance without genuine protection.
 
 The Policy Makers & Regulators page explores the limits of regulation, enforcement challenges, and the role of policy in addressing power imbalances in digital consent systems.
-[Learn more:](/_casestudy/07-audience-policy.md)
+[Learn more](https://sevvara.github.io/ethics_fall2025//casestudy/audience-policy/)
 (/_cased)
 
 ## Moving Forward
