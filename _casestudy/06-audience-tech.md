@@ -7,6 +7,8 @@ permalink: /casestudy/audience-tech/
 author_profile: true
 #nav_order: 5
 ---
+Designers and companies shape how consent is experienced through interface choices, metrics, and system constraints. This page explores how business incentives and UX design can quietly transform consent from a user choice into a compliance mechanism.
+
 ## Designers & Developers: The People Who Shape the Choice Architecture
 
 Tech designers and developers play a central role in how consent is experienced online. While users encounter cookie banners as momentary interruptions, designers engage with them as systems, systems constrained by timelines, business goals, legal requirements, and existing Consent Management Platforms (CMPs).
