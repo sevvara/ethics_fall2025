@@ -8,129 +8,83 @@ author_profile: true
 share: false 
 nav_order: 0
 ---
+## When “Accept All” Means Everything
 
-**When “Accept All” Means Everything: How Cookie Consent Normalizes Data Surveillance**
+Every time a user clicks “Accept All” on a cookie banner, they participate in one of the largest data-collection systems on the internet. While cookies were originally designed to improve user experience, they now underpin a vast tracking infrastructure that enables behavioral profiling, targeted advertising, and data sharing across the web.
 
-Every time users click **“Accept All”** on a cookie banner, they participate in one of the largest invisible data-collection systems online. While cookies were originally meant to improve user experience, they now fuel cross-site tracking, advertising, and behavioral profiling. This case study explores why meaningful consent rarely exists, how companies design banners to nudge users, and what happens to data once it begins circulating across the web.
+This case study examines how cookie consent works in practice, and why meaningful consent often fails. It explores the technical systems behind tracking, the design choices that shape user behavior, and the regulatory frameworks that attempt to govern them. By looking at this issue from multiple perspectives, the case highlights the ethical tension between convenience, compliance, and user autonomy.
 
-# Navigation  
-Choose a section to explore:
+## Learning Objectives
 
-- **[Background: How Cookie Tracking Works](background/)**  
-- **[Ethical Problem: The Illusion of Consent](#ethical-problem-draft)**  
-- **[Stakeholder Overview](stakeholders/)**  
-- **[Interactive Activity](activity/)**  
-- **Audience Pages:**  
-  - [Internet Users](audience-users/)  
-  - [Tech Designers & Companies](audience-tech/)  
-  - [Policy Makers & Regulators](audience-policy/)  
-- **[Discussion Questions](#discussion-questions-draft)**  
-- **[Works Cited](workscited/)**  
+By the end of this case study, readers should be able to:
+- Explain how cookies function technically and how third-party tracking operates
+- Identify why cookie consent often fails to meet the standard of informed, voluntary choice
+- Analyze how responsibility for consent is distributed among users, designers, and regulators
+- Evaluate whether current design practices and policies meaningfully protect user autonomy
 
-# Ethical Problem (Draft)
+## Explore the Case Study Sections
 
-Ethical Problem (Draft)
-Cookies sit at the intersection of user autonomy, corporate incentives, and governance. Although users are “asked” to consent, decades of research in behavioral economics and human-computer interaction suggests that this consent is neither informed nor free.
-**Why Most Users Click “Accept All”**
-Several factors converge:
-- Cognitive fatigue — Banners appear constantly; users want to browse, not negotiate permissions.
-- UI pressure — The path of least resistance (one click) overwhelmingly leads to tracking.
-- Information asymmetry — Users do not understand what cookies actually do.
-- Transfer of risk — Users bear the privacy risk; companies capture the financial upside.
-This dynamic mirrors what legal theorists call “structural consent failure”: a system designed to create the appearance of choice without offering meaningful alternatives (Richards & Hartzog, 2021).
- [Link:] (https://academic.oup.com/jla/article/13/1/43/6180579)
+The sections below can be read in order or explored individually. Each page builds on the others to present a complete picture of the ethical issues surrounding cookie consent.
 
-## How Dark Patterns Shape the Choice
-Dark patterns aren’t merely annoying — they are forms of digital coercion. Regulators have begun identifying them as unethical or unlawful because they exploit cognitive biases such as:
-- Default bias — users stick with whatever is easiest
-- Framing effects — positive language around acceptance
-- Friction asymmetry — declining requires many steps; accepting requires one
-Furman et al. (2022) show that users are far more likely to accept cookies when banners use color and placement to highlight the “Accept All” button.
+### Background: How Cookie Tracking Works
+A clear, accessible walkthrough of what cookies are, why they were invented, and how they evolved from simple memory tools into cross-site tracking mechanisms. This section includes a visual diagram showing how third-party trackers collect and share data in milliseconds, often without users’ awareness.  
+[Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/background/)
 
-[Link:] (https://www.sciencedirect.com/science/article/pii/S0167811623000708)
+### Ethical Problem: The Illusion of Consent
+Introduces the core ethical issue at the heart of this case: users technically “consent,” yet the conditions required for meaningful consent rarely exist. This section explores fatigue, interface design nudges, and information asymmetries that turn “Accept All” into the default rather than a genuine choice.  
+[Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/ethics/)
 
-These techniques undermine the principle of informed consent and create a situation where behavioral manipulation is normalized.
+### Interactive Activity & Discussion
 
-## Imbalance of Knowledge and Power
-Tech companies understand tracking technologies deeply and profit from them. Users, by contrast, see only a brief pop-up with vague wording. This information imbalance generates an ethical problem similar to the power asymmetries discussed in business-ethics literature (Crane & Matten, 2004).
-[Link:] (https://link.springer.com/article/10.1007/s10551-005-1421-8)
-Companies design the system; users navigate it.
-- Who benefits?
-- Who bears the risk?
-- Whose autonomy is being reduced?
-These questions illustrate why the cookie consent ecosystem is closer to surveillance by default than genuine user empowerment.
+This case study includes an interactive activity designed to make cookie consent more tangible, followed by guided discussion questions that help readers reflect on what they experienced.
 
+Rather than treating consent as an abstract legal or ethical concept, this activity places readers in a familiar situation: encountering a cookie banner during everyday browsing. By observing their own reactions, readers can better understand how design, time pressure, and habit shape consent decisions.
 
-# Stakeholders (Draft)
+#### Interactive Activity
+In this activity, readers simulate real cookie-banner interactions. They are asked to respond quickly to different banner designs and consent options, mirroring how most users encounter these prompts in practice. The activity highlights how often users accept tracking by default and which design elements—such as button placement, color, or wording—most influence their choices.
 
-This section will outline the motivations and concerns of:  
-- Internet users  
-- Tech companies  
-- Advertisers  
-- Regulators  
+The goal is not to test technical knowledge, but to reveal how consent operates under realistic conditions rather than idealized decision-making.
 
-**Internet Users**
-Users want:
-- privacy
-- agency
-- easy-to-use websites
-- protection from exploitation
+[Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/activity/)
 
-But they face:
-- confusing banners
-- power asymmetries
-- lack of transparency
-- fatigue from repeated consent decisions
-The average user has neither the time nor the expertise to evaluate dozens of trackers per day.
+#### Discussion Questions
+The discussion questions build directly on the activity and guide readers from personal reflection to broader ethical analysis. They are scaffolded to encourage deeper thinking across multiple perspectives:
 
-**Tech Companies**
-Tech companies benefit from data collection and personalization. They often justify tracking by emphasizing:
-personalization:
+- How did your behavior in the activity compare to how you *think* you usually make privacy decisions?
+- Which design elements influenced your choices the most, and why?
+- Who should bear responsibility when consent is technically valid but practically coerced?
+- How do incentives differ for users, designers, and regulators in shaping consent systems?
+- Should consent banners be treated as neutral legal tools or as behavioral systems requiring stricter oversight?
 
-- “free” services supported by ads
-- efficiency of targeted advertising
-But profit incentives push them to implement dark patterns, minimize transparency, and maximize acceptance rates. Data fuels recommendation systems, advertising algorithms, and behavioral analytics — a competitive advantage (Aalto doctoral thesis on tracking ecosystems).
-[Link:] (https://aaltodoc.aalto.fi/items/930fa379-af73-4954-a518-872c848b5273)
+Together, the activity and discussion invite readers to connect their own experience with larger questions about autonomy, design ethics, and data governance.
 
-**Advertisers**
-Advertisers rely on:
-- detailed user profiles
-- cross-site tracking
-- algorithmic bidding markets
-- behavioral prediction
-
-Without cookies, targeted advertising becomes less precise. Stakeholder research shows advertisers fear “signal loss” and declining ROI as privacy restrictions increase.
-
-**Regulators**
-Regulators aim to protect users while allowing digital markets to function. But enforcement remains difficult:
-Dark patterns evolve faster than law
-
-- Cross-border enforcement is complicated
-- Many websites do the bare minimum for compliance
-Studies highlight limited compliance with GDPR even years after implementation (Santos et al., 2022).
-[Link:] (https://dl.acm.org/doi/abs/10.1145/3564625.3564647)
-Regulators are therefore both necessary stakeholders and reactive participants in a rapidly 
+[Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/activity/)
 
 
-# Interactive Activity Preview (Draft)
+### Stakeholder Overview
+Identifies the groups that shape, and are shaped by, the cookie consent ecosystem. This section outlines the motivations, constraints, and ethical pressures facing internet users, tech companies, advertisers, and regulators, setting the stage for deeper audience-specific analysis.  
+[Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/stakeholders/)
 
-This project includes an interactive test that measures **how fast you react to cookie banners**.  
-Users will respond to randomized “Accept All / Manage Preferences” pop-ups, and the system will track:
+### Audience Pages
+To highlight how the same system affects different groups in different ways, the case study includes three audience-specific pages:
 
-- reaction time  
-- whether you accepted “good” or “bad” cookies  
-- behavioral patterns  
+- **Internet Users**  
+  Explains what tracking means in everyday terms, why users often feel powerless, and how design choices shape consent during routine browsing.  
+  [Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/audience-users/)
 
-The activity will appear on the **Interactive Activity** page.
+- **Tech Designers & Companies**  
+  Examines how UX decisions, business incentives, and performance metrics influence consent flows, and why ethical design is often constrained by organizational pressures.  
+  [Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/audience-tech/)
 
-# Discussion Questions (Draft)
+- **Policy Makers & Regulators**  
+  Focuses on legal definitions of consent, enforcement challenges, and the limitations of current regulatory frameworks in addressing behavioral manipulation and power imbalances.  
+  [Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/audience-policy/)
 
-1. Is informed consent possible when people click automatically?  
-2. Should laws require “Reject All” to be as visible as “Accept All”?  
-3. Who should be responsible for preventing dark patterns?  
-4. Do users have real control over how their data circulates?  
-5. How can transparency be improved?  
+### Works Cited
+A complete list of academic research, articles, and sources referenced throughout the case study.  
+[Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/workscited/)
 
-# Works Cited (Draft)
+---
 
-See the **[Works Cited](workscited/)** page for sources.
+This case study invites readers to reconsider a familiar interaction that often goes unquestioned. By unpacking the systems behind cookie consent, it asks a central ethical question: **when consent is reduced to a click, who is it really serving?**
+
