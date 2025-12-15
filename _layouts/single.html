@@ -101,3 +101,14 @@ layout: default
     </div>
   {% endif %}
 </div>
+{% if page.collection == "casestudy" %}
+  <!-- Mermaid.js for diagrams (case study pages only) -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'dark'
+    });
+  </script>
+{% endif %}
+
