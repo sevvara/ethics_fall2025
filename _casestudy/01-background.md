@@ -1,5 +1,5 @@
 ---
-title: "Background"
+title: "Background: How Cookie Tracking Works"
 layout: single 
 
 collection: casestudy
@@ -8,9 +8,7 @@ author_profile: true
 ---
 Cookies were originally designed to help websites remember users, not to track them across the internet. This section explains how a simple technical tool evolved into the foundation of modern data tracking.
 
-## Background: How Cookie Tracking Works
-
-Cookies were originally introduced in 1994 by Netscape engineer Lou Montulli to solve a simple technical problem: the early web had no memory. Each webpage loaded independently, and browsers had no way to know whether the person viewing one page was the same person who had just visited another.
+Cookies were introduced in 1994 by Netscape engineer Lou Montulli to solve a simple technical problem: the early web had no memory. Each webpage loaded independently, and browsers had no way to know whether the person viewing one page was the same person who had just visited another.
 
 Cookies provided a solution. By storing a small text file in the user’s browser, websites could remember basic information, such as login status or shopping cart contents, across multiple pages. At this stage, cookies were a tool for functionality and convenience, not surveillance.
 
