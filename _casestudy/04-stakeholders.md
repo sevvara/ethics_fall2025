@@ -37,7 +37,6 @@ Regulators aim to protect users by defining what consent legally requires, yet t
 
 The Policy Makers & Regulators page explores the limits of regulation, enforcement challenges, and the role of policy in addressing power imbalances in digital consent systems.
 [Learn more](https://sevvara.github.io/ethics_fall2025//casestudy/audience-policy/)
-(/_cased)
 
 ## Moving Forward
 Looking at these stakeholders together reveals that the illusion of consent is not caused by any single group, but by the interaction between them. Each audience page builds on this overview, offering a deeper look at how ethical responsibility is distributed, and often deferred, across the digital consent ecosystem.
