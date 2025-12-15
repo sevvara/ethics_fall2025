@@ -49,7 +49,7 @@ For any banners you failed to reject, what design element influenced your choice
 **Default Bias:**
 If you were trying to quickly access a news article or complete a task, would you realistically take the extra time to reject tracking? How does the “path of least resistance” shape decisions about privacy?
 
-## 3. The Ethical Dilemma (Critical Thinking)**
+## 3. The Ethical Dilemma (Critical Thinking)
 - Is Consent Really “Freely Given”?
 Regulations like the GDPR require that consent be voluntary and easy to withdraw.
 If rejecting cookies consistently requires more effort than accepting them, can we say users are freely choosing?
