@@ -7,6 +7,8 @@ permalink: /casestudy/ethics/
 author_profile: true
 #nav_order: 1 
 ---
+Clicking “Accept All” feels trivial, but it initiates a complex system of data tracking most users never fully understand. This section explores why that gap between choice and understanding matters ethically.
+
 ## A Familiar Moment
 Late at night, a college student opens her laptop to search for off-campus housing. She clicks through rental listings, checks neighborhood safety, opens a news article, and scrolls social media. Each site interrupts her with the same prompt: a cookie banner asking her to accept or manage preferences.
 
