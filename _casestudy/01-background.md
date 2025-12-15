@@ -6,50 +6,70 @@ collection: casestudy
 permalink: /casestudy/background/
 author_profile: true
 ---
+Cookies were originally designed to help websites remember users, not to track them across the internet. This section explains how a simple technical tool evolved into the foundation of modern data tracking.
 
-## What is a Cookie?
+## Background: How Cookie Tracking Works
 
-At its simplest, a cookie is just a small text file stored on your computer by your browser. It was invented in 1994 by Lou Montulli at Netscape to solve a specific problem: **memory**.
+Cookies were originally introduced in 1994 by Netscape engineer Lou Montulli to solve a simple technical problem: the early web had no memory. Each webpage loaded independently, and browsers had no way to know whether the person viewing one page was the same person who had just visited another.
 
-Without cookies, the web is "stateless." This means a website has no idea that the person visiting Page A is the same person visiting Page B.
+Cookies provided a solution. By storing a small text file in the user’s browser, websites could remember basic information, such as login status or shopping cart contents, across multiple pages. At this stage, cookies were a tool for functionality and convenience, not surveillance.
 
-**Legitimate uses of cookies include:**
-* Keeping you logged in as you navigate.
-* Remembering what is in your shopping cart.
-* Saving your language preferences.
+Understanding this original purpose is essential to understanding how cookies later became ethically contentious.
 
-**Key Definition:** A **First-Party Cookie** is created by the site you are currently visiting (e.g., `nytimes.com`). It is generally useful and safe.
-{: .notice}
+## What Is a Cookie?
 
----
+A cookie is a small text file saved by your browser at the request of a website. It allows the site to recognize your device and remember limited information between visits or page loads.
 
-## The Pivot: From Memory to Surveillance
+Common, legitimate uses of cookies include:
+- Keeping users logged in across pages  
+- Remembering items in a shopping cart  
+- Saving language or accessibility preferences  
 
-The ethical shift occurred when advertisers realized they could use cookies not just to remember a user *on one site*, but to track them *across all sites*.
+### Key Definition
 
-This is done using **Third-Party Cookies**.
+**First-Party Cookie**  
+A cookie created and accessed by the site you are intentionally visiting (for example, `nytimes.com`). These cookies generally support core site functionality and are widely considered low risk.
 
-### Visualizing the Trap
+At this stage, cookies functioned as local memory, not as tracking tools.
 
-The diagram below illustrates how a single visit to a news site leaks your data to an invisible third party (like Google or Facebook) without you realizing it.
+## The Shift: From Memory Tool to Tracking Infrastructure
+
+The ethical shift began when advertisers realized that cookies could do more than store preferences on a single site. They could be used to recognize the same browser across *many* sites.
+
+This led to the rise of **third-party cookies**, which are created not by the site a user chooses to visit, but by external services embedded within that site. These commonly include:
+- advertising networks  
+- analytics scripts  
+- social media buttons  
+- invisible tracking pixels  
+
+When a webpage loads, these third-party elements load as well. As a result, the same external company can observe a user’s behavior across dozens, or hundreds, of unrelated websites.
+
+Over time, this enables the construction of detailed behavioral profiles based on browsing habits, interests, location signals, and device information.
+
+This system now forms the backbone of the modern ad-tech ecosystem.
+
+## Visualizing the Tracking Flow
+
+From the user’s perspective, visiting a website feels simple. They see text, images, and headlines. Behind the scenes, however, the browser may be making multiple invisible requests to external domains—often before the user scrolls or interacts with the page.
+
+The diagram below illustrates a simplified version of how a single page visit can transmit data to an advertising or tracking network.
 
 ```mermaid
 sequenceDiagram
     participant User as 👤 You
     participant Site as 🖥️ News Website
-    participant AdTech as 👁️ Ad/Tracking Network
+    participant AdTech as 👁️ Ad / Tracking Network
 
-    User->>Site: 1. Request Homepage (GET /)
-    Site->>User: 2. Send HTML + "Invisible Tracker Code"
-    
-    Note over User,AdTech: Your browser sees the tracker code and automatically runs it.
-    
-    User->>AdTech: 3. Auto-Request Ad Image
-    AdTech->>AdTech: 4. Check existing "ID" Cookie
-    
-    alt No Cookie Found
-        AdTech->>User: 5. Set New Unique ID (User_12345)
-    else Cookie Found
-        AdTech->>AdTech: 6. Log: "User_12345 likes Politics"
+    User->>Site: 1. Request homepage
+    Site->>User: 2. Send HTML with embedded tracker
+
+    Note over User,AdTech: The browser automatically loads third-party scripts.
+
+    User->>AdTech: 3. Auto-request ad image or script
+    AdTech->>AdTech: 4. Check for existing tracking ID
+
+    alt No cookie found
+        AdTech->>User: 5. Set new unique ID
+    else Cookie found
+        AdTech->>AdTech: 6. Update behavioral profile
     end
-
