@@ -47,31 +47,3 @@ When a webpage loads, these third-party elements load as well. As a result, the 
 Over time, this enables the construction of detailed behavioral profiles based on browsing habits, interests, location signals, and device information.
 
 This system now forms the backbone of the modern ad-tech ecosystem.
-
-## Visualizing the Tracking Flow
-
-From the user’s perspective, visiting a website feels simple. They see text, images, and headlines. Behind the scenes, however, the browser may be making multiple invisible requests to external domains, often before the user scrolls or interacts with the page.
-
-The diagram below illustrates a simplified version of how a single page visit can transmit data to an advertising or tracking network.
-
-```markdown
-<div class="mermaid">
-sequenceDiagram
-    participant User as 👤 You
-    participant Site as 🖥️ News Website
-    participant AdTech as 👁️ Ad / Tracking Network
-
-    User->>Site: Request homepage
-    Site->>User: Send HTML with embedded tracker
-
-    Note over User,AdTech: Browser loads third-party scripts automatically
-
-    User->>AdTech: Auto-request ad script
-    AdTech->>AdTech: Check for existing ID
-
-    alt No cookie found
-        AdTech->>User: Set new unique ID
-    else Cookie found
-        AdTech->>AdTech: Update behavioral profile
-    end
-</div>

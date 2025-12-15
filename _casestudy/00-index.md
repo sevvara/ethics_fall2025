@@ -1,5 +1,5 @@
 ---
-title: "Case study"
+title: "Case study: When “Accept All” Means Everything"
 layout: single 
 
 collection: casestudy
@@ -8,7 +8,7 @@ author_profile: true
 share: false 
 nav_order: 0
 ---
-## When “Accept All” Means Everything
+By Sevara Murodova & Alex Dagher 
 
 Every time a user clicks “Accept All” on a cookie banner, they participate in one of the largest data-collection systems on the internet. While cookies were originally designed to improve user experience, they now underpin a vast tracking infrastructure that enables behavioral profiling, targeted advertising, and data sharing across the web.
 
@@ -41,7 +41,7 @@ This case study includes an interactive activity designed to make cookie consent
 Rather than treating consent as an abstract legal or ethical concept, this activity places readers in a familiar situation: encountering a cookie banner during everyday browsing. By observing their own reactions, readers can better understand how design, time pressure, and habit shape consent decisions.
 
 #### Interactive Activity
-In this activity, readers simulate real cookie-banner interactions. They are asked to respond quickly to different banner designs and consent options, mirroring how most users encounter these prompts in practice. The activity highlights how often users accept tracking by default and which design elements—such as button placement, color, or wording—most influence their choices.
+In this activity, readers simulate real cookie-banner interactions. They are asked to respond quickly to different banner designs and consent options, mirroring how most users encounter these prompts in practice. The activity highlights how often users accept tracking by default and which design elements, such as button placement, color, or wording, most influence their choices.
 
 The goal is not to test technical knowledge, but to reveal how consent operates under realistic conditions rather than idealized decision-making.
 
