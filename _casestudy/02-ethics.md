@@ -1,5 +1,5 @@
 ---
-title: "Ethics"
+title: "Ethical Problem: The Illusion of Consent"
 layout: single 
 
 collection: casestudy
