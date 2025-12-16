@@ -69,7 +69,6 @@ The discussion questions build directly on the activity and guide readers from p
 - Should consent banners be treated as neutral legal tools or as behavioral systems requiring stricter oversight?
 
 Together, the activity and discussion invite readers to connect their own experience with larger questions about autonomy, design ethics, and data governance.
-
 [Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/activity/)
 
 
