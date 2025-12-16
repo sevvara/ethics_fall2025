@@ -26,7 +26,7 @@ By the end of this case study, readers should be able to:
 
 The sections below can be read in order or explored individually. Each page builds on the others to present a complete picture of the ethical issues surrounding cookie consent.
 
-## Navigation
+**Navigation**
 Choose a section to explore:
 
 - **[Background: How Cookie Tracking Works](https://sevvara.github.io/ethics_fall2025//casestudy/background/)**  
@@ -40,7 +40,7 @@ Choose a section to explore:
 - **[Works Cited](https://sevvara.github.io/ethics_fall2025//casestudy/workscited/)**
 
 ### Background: How Cookie Tracking Works
-A clear, accessible walkthrough of what cookies are, why they were invented, and how they evolved from simple memory tools into cross-site tracking mechanisms. This section includes a visual diagram showing how third-party trackers collect and share data in milliseconds, often without users’ awareness.  
+A clear, accessible walkthrough of what cookies are, why they were invented, and how they evolved from simple memory tools into cross-site tracking mechanisms. This section explains the hidden mechanics of how third-party trackers collect and share data in milliseconds, often without users’ awareness.
 [Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/background/)
 
 ### Ethical Problem: The Illusion of Consent
@@ -99,5 +99,7 @@ A complete list of academic research, articles, and sources referenced throughou
 
 ---
 
-This case study invites readers to reconsider a familiar interaction that often goes unquestioned. By unpacking the systems behind cookie consent, it asks a central ethical question: **when consent is reduced to a click, who is it really serving?**
+This case study invites readers to reconsider a familiar interaction that often goes unquestioned. By unpacking the systems behind cookie consent, it asks a central ethical question: 
+
+- **When consent is reduced to a click, who is it really serving?**
 

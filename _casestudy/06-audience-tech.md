@@ -16,7 +16,6 @@ Tech designers and developers play a central role in how consent is experienced 
 Within this environment, design decisions are rarely neutral. Choices about button placement, defaults, wording, and visual hierarchy directly shape how users respond. These decisions are often evaluated through metrics such as click-through rates, engagement, and revenue, rather than user understanding or long-term trust.
 
 ## Incentives and Constraints
-
 Most designers do not begin with the intention to deceive. However, ethical design is not always the path of least resistance. Teams face pressure to:
 - minimize friction in user flows  
 - maintain advertising revenue  
@@ -26,13 +25,11 @@ Most designers do not begin with the intention to deceive. However, ethical desi
 When success is measured by speed and conversion, designs that encourage quick acceptance are often rewarded, while more transparent or user-protective designs may be seen as risky or inefficient.
 
 ## Dark Patterns and Ethical Drift
-
-Research on dark patterns in UX design shows how interface elements can be intentionally, or gradually, optimized to steer users toward consent. Highlighted “Accept All” buttons, confusing toggles, or multi-step rejection paths are examples of patterns that technically preserve choice while practically undermining it.
+Research on dark patterns in UX design[[3]](https://sevvara.github.io/ethics_fall2025//casestudy/workscited/) shows how interface elements can be intentionally, or gradually, optimized to steer users toward consent. Highlighted “Accept All” buttons, confusing toggles, or multi-step rejection paths are examples of patterns that technically preserve choice while practically undermining it.
 
 This process does not always involve a single unethical decision. Instead, it often reflects **ethical drift**: small compromises made over time as designers balance user wellbeing against performance expectations. Each individual choice may seem minor, but together they reshape consent into something users comply with rather than actively choose.
 
 ## Responsibility Without Full Control
-
 Designers and developers occupy an ethically complex position. They have significant influence over how consent is structured, yet limited control over the broader business models that depend on data extraction. Responsibility is distributed across product teams, leadership, legal frameworks, and advertising ecosystems.
 
 Still, because designers shape the interfaces through which consent is expressed, they become key actors in determining whether consent is meaningful or merely formal.

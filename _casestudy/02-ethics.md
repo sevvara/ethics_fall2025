@@ -21,6 +21,7 @@ Nothing visibly changes. The page loads. Her search continues.
 Behind the scenes, however, third-party trackers begin recording her activity. Information about the pages she visits, how long she stays, her device, and her inferred location starts circulating across advertising networks. By the time she closes her browser, this data has already contributed to a profile she will never see and cannot easily undo.
 
 This moment is ordinary and almost invisible, it is where the ethical problem begins.
+
 ## When Consent Becomes a Formality
 Cookie banners are often presented as tools of transparency and user empowerment. In theory, they allow people to make informed choices about how their data is collected and used. In practice, however, meaningful consent is difficult to achieve.
 
@@ -48,6 +49,7 @@ Consent banners are not neutral. Design choices, such as color, button size, def
 
 From an ethical standpoint, this raises questions about responsibility:
 If a system is intentionally designed to encourage one choice over another, how free is that choice?
+
 ## Who Bears the Consequences?
 The benefits of cookie-based tracking are concentrated among advertisers, data brokers, and platforms that profit from personalization and targeted ads. The costs, meanwhile, are distributed across users, often invisibly.
 

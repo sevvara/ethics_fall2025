@@ -25,10 +25,10 @@ This activity lets you experience those dynamics directly.
 
 ---
 
-## Discussion Questions & Reflection
+**Discussion Questions & Reflection**
 These questions guide you through three levels of analysis: your own experience → design choices → the larger ethical problem.
 
-## 1. Personal Experience (Reflection)
+## 1. Personal Experience - Reflection
 **Reaction Time:**
 - How did your reaction time differ between clearly labeled banners and banners designed with dark patterns?
 - Were you slower when the “Reject” button was hidden or visually de-emphasized?
@@ -39,7 +39,7 @@ These questions guide you through three levels of analysis: your own experience 
 
  Why might designers intentionally rely on this effect?
 
-## 2. Analyzing the Design (Application)
+## 2. Analyzing the Design - Application
 **Identify the Dark Pattern:**
 For any banners you failed to reject, what design element influenced your choice?
 - Was it color highlighting of the Accept button?
@@ -49,12 +49,12 @@ For any banners you failed to reject, what design element influenced your choice
 **Default Bias:**
 If you were trying to quickly access a news article or complete a task, would you realistically take the extra time to reject tracking? How does the “path of least resistance” shape decisions about privacy?
 
-## 3. The Ethical Dilemma (Critical Thinking)
+## 3. The Ethical Dilemma - Critical Thinking
 - Is Consent Really “Freely Given”?
 Regulations like the GDPR require that consent be voluntary and easy to withdraw.
 If rejecting cookies consistently requires more effort than accepting them, can we say users are freely choosing?
 
 **Structural Consent Failure:**
  Some scholars describe today’s consent system as a form of **structural consent failure**,  a system that appears to offer choice but is built so that meaningful refusal is difficult.
- Based on your experience in the activity, do you agree?
- What would an ethical alternative to the current banner system look like?
+- Based on your experience in the activity, do you agree?
+- What would an ethical alternative to the current banner system look like?

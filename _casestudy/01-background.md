@@ -8,12 +8,11 @@ author_profile: true
 ---
 Cookies were originally designed to help websites remember users, not to track them across the internet. This section explains how a simple technical tool evolved into the foundation of modern data tracking.
 
-Cookies were introduced in 1994 by Netscape engineer Lou Montulli to solve a simple technical problem: the early web had no memory. Each webpage loaded independently, and browsers had no way to know whether the person viewing one page was the same person who had just visited another.
+Cookies were introduced in 1994 by Netscape engineer Lou Montulli[[1]](https://www.nytimes.com/2001/09/04/business/giving-web-a-memory-cost-its-users-privacy.html) to solve a simple technical problem: the early web had no memory. Each webpage loaded independently, and browsers had no way to know whether the person viewing one page was the same person who had just visited another.
 
 Cookies provided a solution. By storing a small text file in the user’s browser, websites could remember basic information, such as login status or shopping cart contents, across multiple pages. At this stage, cookies were a tool for functionality and convenience, not surveillance.
 
 Understanding this original purpose is essential to understanding how cookies later became ethically contentious.
-
 ## What Is a Cookie?
 
 A cookie is a small text file saved by your browser at the request of a website. It allows the site to recognize your device and remember limited information between visits or page loads.
@@ -22,14 +21,12 @@ Common, legitimate uses of cookies include:
 - Keeping users logged in across pages  
 - Remembering items in a shopping cart  
 - Saving language or accessibility preferences  
-
 ### Key Definition
 
 **First-Party Cookie**  
 A cookie created and accessed by the site you are intentionally visiting (for example, `nytimes.com`). These cookies generally support core site functionality and are widely considered low risk.
 
 At this stage, cookies functioned as local memory, not as tracking tools.
-
 ## The Shift: From Memory Tool to Tracking Infrastructure
 
 The ethical shift began when advertisers realized that cookies could do more than store preferences on a single site. They could be used to recognize the same browser across *many* sites.
