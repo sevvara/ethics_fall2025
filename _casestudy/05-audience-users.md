@@ -37,4 +37,4 @@ The ethical imbalance is clear:
 Users bear the long-term consequences of tracking, while having the least control over how consent is structured.
 
 From an ethical perspective, this raises a critical question:  
-**If users are expected to manage their privacy, but are given neither the tools nor the power to do so, can consent be considered meaningful at all?**
+- **If users are expected to manage their privacy, but are given neither the tools nor the power to do so, can consent be considered meaningful at all?**

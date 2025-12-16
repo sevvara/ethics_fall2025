@@ -57,7 +57,6 @@ Rather than treating consent as an abstract legal or ethical concept, this activ
 In this activity, readers simulate real cookie-banner interactions. They are asked to respond quickly to different banner designs and consent options, mirroring how most users encounter these prompts in practice. The activity highlights how often users accept tracking by default and which design elements, such as button placement, color, or wording, most influence their choices.
 
 The goal is not to test technical knowledge, but to reveal how consent operates under realistic conditions rather than idealized decision-making.
-
 [Learn More →](https://sevvara.github.io/ethics_fall2025//casestudy/activity/)
 
 #### Discussion Questions

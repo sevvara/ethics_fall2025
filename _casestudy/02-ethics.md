@@ -65,4 +65,4 @@ The ethical question is not whether users clicked “Accept All.”
 It is whether they were ever given a fair opportunity to understand what that choice truly meant.
 
 ## This case asks us to consider:
-**When consent is reduced to a button, who does it really serve, and who does it leave unprotected?**
+- **When consent is reduced to a button, who does it really serve, and who does it leave unprotected?**

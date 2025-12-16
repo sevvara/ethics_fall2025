@@ -35,5 +35,5 @@ Designers and developers occupy an ethically complex position. They have signifi
 Still, because designers shape the interfaces through which consent is expressed, they become key actors in determining whether consent is meaningful or merely formal.
 
 This raises a difficult ethical question for computing professionals:  
-**When systems are designed to prioritize compliance and profit, what responsibility do designers have to protect user autonomy, even when doing so conflicts with organizational incentives?**
+- **When systems are designed to prioritize compliance and profit, what responsibility do designers have to protect user autonomy, even when doing so conflicts with organizational incentives?**
 

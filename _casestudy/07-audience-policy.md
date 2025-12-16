@@ -49,5 +49,5 @@ Perhaps the most important challenge for policymakers is acknowledging how peopl
 To protect user autonomy in practice, policy must treat consent banners not as neutral legal forms, but as **behavioral systems**. Only by accounting for how design shapes choice can regulation move beyond formal compliance toward meaningful privacy protection.
 
 This case ultimately asks regulators to confront a difficult question:  
-**How should the law respond when technically valid consent consistently fails to function as ethical consent?**
+- **How should the law respond when technically valid consent consistently fails to function as ethical consent?**
 
